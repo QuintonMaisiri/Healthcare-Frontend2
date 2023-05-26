@@ -1,0 +1,21 @@
+.appointment{
+    min-width: 400px;
+    font-size: 11pt;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    margin: 20px;
+}
+.doctor-name{
+    display: flex;
+    padding: 10px 20px;
+}
+.doctor-name-container{
+    margin-left: 20px;
+}
+.appointment-time{
+    display: flex;
+    background-color: #00635c1f;
+    padding: 10px 20px 0px 20px;
+}
+.appointment-time > div > p >.bi{
+    margin: 0px 5px 0px 15px;
+}

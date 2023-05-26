@@ -1,0 +1,14 @@
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    box-shadow: rgba(53, 53, 53, 0.05) 0px 0px 0px 1px;
+    z-index: 10;
+}
+.logo-container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

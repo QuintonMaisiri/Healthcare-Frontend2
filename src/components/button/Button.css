@@ -1,0 +1,15 @@
+.arrow{
+    width: 20px;
+}
+
+.custom-btn{
+    font-size: 14pt;
+    padding: 5px;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    transition: 300ms ease-in-out;
+}
+
+.custom-btn:hover{
+    transform: scale(1.1);
+}

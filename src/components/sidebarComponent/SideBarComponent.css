@@ -1,0 +1,21 @@
+.sideBarComponent{
+   padding: 5px;
+   transition: 300ms ease-in-out;
+   font-size: 12pt;
+}
+.sidebar-links{
+    display: flex;
+    color: #535353;
+    text-align: center;
+    transition: 300ms ease-in-out;
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.sideBarComponent:hover{
+    background-color: #535353;
+}
+
+.sidebar-links:hover,.active{
+   color: white;
+}

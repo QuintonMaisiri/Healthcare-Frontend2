@@ -1,0 +1,47 @@
+.hero{
+    position: relative;
+    z-index: 10;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between ;
+}
+header{
+    position: relative;
+    background-color: #535353;
+    background-image: url("/public/images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+}
+
+h1,h2,.outline{
+    font-family: 'Anton', sans-serif;
+}
+
+.heroHeading,.outline{
+    color:#ff9fb2;
+    letter-spacing: 2px;
+    font-size: 68pt;
+}
+.outline{
+    color: transparent;
+    -webkit-text-stroke: 2px #ff9fb2;
+}
+
+.left-hero,.right-hero{
+    width: 50vw;
+    /*  padding: 0px 120px; */
+    display: flex;
+    flex-direction: column;
+}
+.left-hero{
+    color:#ff9fb27c;
+    font-size:12pt;
+    letter-spacing: 1px;
+    justify-content: center;
+}
+.right-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}

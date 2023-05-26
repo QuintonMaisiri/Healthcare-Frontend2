@@ -1,0 +1,16 @@
+.testimonials{
+    display: flex;
+    padding: 40px 120px;
+    background-color: #ff9fb2;
+    background-image: url("https://transparenttextures.com/patterns/mirrored-squares.png");
+}
+
+
+.left-testimonials,.right-testimonials{
+    width: 50vw;
+}
+
+.left-testimonials{
+    padding-right: 20px;
+    display: relative;
+}

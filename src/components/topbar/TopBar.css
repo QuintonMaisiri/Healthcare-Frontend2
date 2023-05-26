@@ -1,0 +1,8 @@
+.topbar{
+    display: flex;
+    justify-content: right;
+    margin-left: 200px;
+    height: 70px;
+    box-shadow: rgba(53, 53, 53, 0.05) 0px 0px 0px 1px;
+    clip-path: inset(-10px 0px -10px 0px);
+}

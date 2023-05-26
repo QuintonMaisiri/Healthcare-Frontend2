@@ -1,0 +1,36 @@
+.doctor-information-bar{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-top: none;
+    width: 30vw;
+    clip-path: inset(0px -10px 0px -10px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10pt;
+}
+.doctor-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.doctor-profile{
+    text-align: center;
+}
+#doctor-job-title{
+    font-size: 10pt;
+}
+
+h4{
+    font-family: 'Anton', sans-serif;
+}
+#biography{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+#name{
+    font-size: 12pt;
+}
+#doctor-job-title{
+    color:#FE636E;
+    font-weight: bold;
+}

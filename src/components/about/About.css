@@ -1,0 +1,20 @@
+.about{
+    display: flex;
+    padding: 40px 120px;
+    color: #00635d;
+    font-size: 14pt;
+    background-color: #ffffff;
+    background-image: url("https://transparenttextures.com/patterns/green-dust-and-scratches.png");
+}
+
+.left-about,.right-about{
+    width: 50vw;
+}
+.about-img{
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.aboutHeading{
+    font-size: 36pt;
+}
