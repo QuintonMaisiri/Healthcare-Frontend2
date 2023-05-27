@@ -10,12 +10,13 @@ function Button(props){
                     backgroundColor: props.outline ? "transparent" : props.bg ,
                     borderColor: props.outline ? props.bg : "transparent",
                     borderRadius: props.radius && props.radius,
-                    width: props.width && props.width
+                    width: props.width && props.width,
+                    marginTop: props.marginTop
                 }
                 
             }
         >
-            <a href="{link}"
+            <a href={props.link}
                 style={
                     {
                         color: props.color ? props.color : "black"

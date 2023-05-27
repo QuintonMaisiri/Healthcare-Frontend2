@@ -5,7 +5,7 @@ import "./Testimonials.css"
 
 function Testimonials() {
     return (
-        <div className='testimonials'>
+        <div className='testimonials' id ="testimonials">
             <div className='left-testimonials'>
                 <Carousel />
             </div>

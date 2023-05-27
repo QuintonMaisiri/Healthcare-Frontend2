@@ -16,14 +16,14 @@ function Header(){
                     <p>Make an Apponintment with your favourite doctor at Healthcare all in the comfort of your home </p>
                     <div className="hero_btn_container">
                         <Button 
-                            link="#"
+                            link="/signin"
                             text="Make Apponintment Now" 
                             bg ="#ff9fb2" 
                             color ="#535356" 
                             outline = {false}
                         />
                         <Button 
-                            link="#"
+                            link="signin"
                             text="Find Doctor" 
                             bg="#ff9fb2" 
                             color ="#ff9fb2" 

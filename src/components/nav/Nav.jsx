@@ -13,24 +13,23 @@ function Nav(){
             <div className="custom-col right-nav">
                 <div className="nav-links-container">
                     <ul>
-                        <li className="nav-links"><a href="">Home</a></li>
-                        <li className="nav-links"><a href="">About</a></li>
-                        <li className="nav-links"><a href="">Find Doctor</a></li>
-                        <li className="nav-links"><a href="">Testimonials</a></li>
-                        <li className="nav-links"><a href="">Services</a></li>
+                        <li className="nav-links"><a href="/">Home</a></li>
+                        <li className="nav-links"><a href="/#about">About</a></li>
+                        <li className="nav-links"><a href="/doctor">Find Doctor</a></li>
+                        <li className="nav-links"><a href="/#testimonials">Testimonials</a></li>
                     </ul>
                 </div>
                 <div className="custom-col nav-signin-container">
                     <ul>
                         <Button 
-                            link="#"
+                            link="/signin"
                             text="Signin" 
                             bg="transparent" 
                             color ="#ff9fb2" 
                             outline = {true}
                         />
                         <Button 
-                            link="#"
+                            link="signup"
                             text="Signup" 
                             bg="#ff9fb2" 
                             color ="white" 

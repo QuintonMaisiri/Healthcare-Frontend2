@@ -4,7 +4,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id ="about">
     <div className='left-about'>
         <p>About us</p>
         <h1 className='aboutHeading'>Get To Know Us Better</h1>
@@ -13,10 +13,11 @@ function About() {
         <img src='/images/about.jpg' className='about-img' alt=''></img>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officiis magni quos adipisci ratione architecto iure aspernatur, excepturi repudiandae eaque laudantium, similique rem debitis alias ad modi accusantium a. Magnam.</p>
         <Button 
-          text="Work With Us"
+          text="Make An Appointment"
           color = "white"
           bg = "#00635d"
           outline = {false}
+          link ="/signin"
         />
       </div>
     </div>

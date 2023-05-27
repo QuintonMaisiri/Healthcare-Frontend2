@@ -6,6 +6,8 @@ import Signin from "./pages/signin/Signin"
 import Signup from './pages/signup/Signup';
 import MakeAppointment from './pages/makeAppointment/MakeAppointment';
 import Doctor from './pages/doctor/Doctor';
+import DoctorDashBoard from './pages/doctorDashBoard/DoctorDashBoard';
+import Password from './pages/password/Password';
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <Route path='/signup' element={<Signup />} />
         <Route path='/appointment' element ={<MakeAppointment />} />
         <Route path="/doctor" element ={<Doctor />} />
+        <Route path='/doctor-dashboard' element = {<DoctorDashBoard />} />
+        <Route path ="/password" element = {<Password />} />
       </Routes>
     </BrowserRouter>
   );

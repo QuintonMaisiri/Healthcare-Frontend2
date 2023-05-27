@@ -25,11 +25,10 @@ function Footer() {
                 </div>
                 <div className='footer-col col-4 link'>
                     <ul>
-                        <li><a href="" className="footer-link">Home</a></li>
-                        <li><a href="" className="footer-link">About</a></li>
-                        <li><a href="" className="footer-link">Find Doctor</a></li>
-                        <li><a href="" className="footer-link">Testimonials</a></li>
-                        <li><a href="" className="footer-link">Services</a></li>
+                        <li><a href="/" className="footer-link">Home</a></li>
+                        <li><a href="/#about" className="footer-link">About</a></li>
+                        <li><a href="/doctor" className="footer-link">Find Doctor</a></li>
+                        <li><a href="/#testimonials" className="footer-link">Testimonials</a></li>
                     </ul>
                 </div>
             </div>

@@ -8,7 +8,7 @@ import Button from "../button/Button"
 function DoctorInformationBar() {
   return (
     <div className='doctor-information-bar'>
-      <div className='doctor-profile'>
+      <div className='doctor-informationbar-profile'>
         <RoundedImg
           src="/images/about.jpg"
           diameter="80px"
