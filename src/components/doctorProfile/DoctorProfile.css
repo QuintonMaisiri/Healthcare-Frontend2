@@ -1,0 +1,40 @@
+.doctor-profile-heading{
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16pt;
+}
+.left-doctor-profile , .right-doctor-profile{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.left-doctor-profile{
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor-profile{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.doctor-profile:hover{
+    background-color: #00635d;
+    color: white;
+    cursor: pointer;
+}
+
+.right-doctor-profile{
+    border-left : 1px solid #5353534d;
+    padding-left: 20px;
+}
+
+.doctor-profile-stat{
+    font-size: 9pt;
+}
+.doctor-profile-stat > span{
+    font-size: 12pt;
+}

@@ -1,0 +1,9 @@
+.record{
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
+    padding: 10px;
+    text-align: center;
+}
+.record-heading{
+    color: #08a4bd;
+}

@@ -3,7 +3,10 @@ import "./TextInput.css"
 
 function TextInput(props) {
   return (
-    <input 
+    <input  
+        style={{
+          marginRight: props.marginRight && props.marginRight
+        }}
         placeholder={props.placeholder && props.placeholder}
         className='text-input'
         type={props.type && props.type}

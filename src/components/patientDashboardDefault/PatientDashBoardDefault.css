@@ -1,0 +1,15 @@
+.appointment-section-container{
+    width: 100%;
+}
+.appointment-section , .record-section{
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+}
+#appointment-heading , #record-heading{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 14pt;
+}
+.records-section-container{
+    margin-top: 20px;
+} 

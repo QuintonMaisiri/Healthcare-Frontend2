@@ -1,20 +1,4 @@
 .patient-dashboard-content{
     width: 60vw;
-    padding: 20px;
-}
-.appointment-section-container{
-    width: 100%;
-}
-.appointment-section , .record-section{
-    width: 100%;
-    overflow-x: auto;
-    display: flex;
-}
-#appointment-heading , #record-heading{
-    font-family: 'Tajawal', sans-serif;
-    font-weight: bold;
-    font-size: 14pt;
-}
-.records-section-container{
-    margin-top: 20px;
+    padding: 40px;
 }

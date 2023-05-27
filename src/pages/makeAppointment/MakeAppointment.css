@@ -1,0 +1,18 @@
+.make-appointment-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.make-appointment-container >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.make-appointment-container >div >Button{
+    margin-top: 20px;
+}
